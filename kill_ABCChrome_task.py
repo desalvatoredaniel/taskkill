@@ -26,7 +26,7 @@ if processs.returncode==0:
 
 else:
 
-    print("Command Successful")
+    print("Command Failed")
 
     print("Error:",stderr.decode())
 
