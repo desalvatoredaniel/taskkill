@@ -1,6 +1,5 @@
 import subprocess
-#test commit
-
+import time 
 #task Kill command
 
 command = "TASKKILL /F /IM ABCChrome86.exe /T"
@@ -30,3 +29,6 @@ else:
     print("Command Successful")
 
     print("Error:",stderr.decode())
+
+
+time.sleep(30)
